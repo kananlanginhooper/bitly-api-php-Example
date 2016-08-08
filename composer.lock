@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3c0905edd44ff71fd8382d2eb36f5ae9",
+    "packages": [
+        {
+            "name": "caedo/framework",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kananlanginhooper/Caedo.git",
+                "reference": "cf7e4a314c684c40428150654b367dbba70b43f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kananlanginhooper/Caedo/zipball/cf7e4a314c684c40428150654b367dbba70b43f6",
+                "reference": "cf7e4a314c684c40428150654b367dbba70b43f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Kanan Langin-Hooper",
+                    "email": "Kanan.LanginHooper@gmail.com",
+                    "homepage": "https://github.com/kananlanginhooper",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Caedo Framework Base for PHP",
+            "homepage": "https://github.com/kananlanginhooper/Caedo",
+            "keywords": [
+                "Caedo",
+                "DevOps",
+                "Developer First",
+                "PHP Framework"
+            ],
+            "support": {
+                "source": "https://github.com/kananlanginhooper/Caedo/tree/1.0.9",
+                "issues": "https://github.com/kananlanginhooper/Caedo/issues"
+            },
+            "time": "2016-07-19 17:56:19"
+        },
+        {
+            "name": "kananlanginhooper/bitly-api-php",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kananlanginhooper/bitly-api-php.git",
+                "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kananlanginhooper/bitly-api-php/zipball/a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
+                "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache Software License 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kanan Hooper",
+                    "email": "kanan.langinhooper@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James Socol",
+                    "email": "james@bit.ly",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "PHP client for the Bitly API",
+            "homepage": "https://github.com/kananlanginhooper/bitly-api-php",
+            "keywords": [
+                "api",
+                "bitly"
+            ],
+            "time": "2016-07-26 20:05:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,9 @@
+{
+    "config": {
+        "vendor-dir": "##VENDOR"
+    },
+    "require": {
+        "caedo/framework": "1.*",
+		"kananlanginhooper/bitly-api-php": "1.*"
+    }
+}
