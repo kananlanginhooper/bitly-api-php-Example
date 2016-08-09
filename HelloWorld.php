@@ -38,22 +38,18 @@ class HelloWorld extends BasePage {
 		//
 		// step 1 - Create a Bitly account
 		
-		// step 2 (Optional) - Registered your application with Bitly to get a client ID and client secret
+		// step 2 - Registered your application with Bitly to get a client ID and client secret
 		$clientId = null;
 		$clientSecret = null;
 		
-		// step 3 (Optional) - Enter your application access token or the access token for the current user. This is necessary for most API methods.
-		$accessToken = '__Usually-Required__'; // <--- !!! Change this !!!
-		
-		$clientId = 'cc8152b2ba978bc754d4b92a287d081d584a4735';
-		$clientSecret = '210118b4949d61e33482d7ec10d529ff6cf3cb84';
-		$accessToken = '2a706adf8d7069ad40bd1376b863f76daaeda68d';
+		// step 3 - Enter your application access token or the access token for the current user. This is necessary for most API methods.
+		$accessToken = '__Required__'; // <--- !!! Change this !!!
 		
 		$Bitly = new BitlyApiPhp\Bitly($clientId, $clientSecret, $accessToken);
 		
 		print "<h1>Hello World</h1>";
 		
-		$UrlToShorten = 'http://floormechanics.com/ProductDetail/Bona-Traffic-Waterborne-Hardwood-Floor-Finish--Semi-Gloss/WT150318075?2';
+		$UrlToShorten = 'https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/';
 		$UrlToShorten_Link = "<a href='$UrlToShorten'>$UrlToShorten</a>";
 		
 		$results = $Bitly->shorten($UrlToShorten);
