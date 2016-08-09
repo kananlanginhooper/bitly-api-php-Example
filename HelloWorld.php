@@ -45,15 +45,23 @@ class HelloWorld extends BasePage {
 		// step 3 (Optional) - Enter your application access token or the access token for the current user. This is necessary for most API methods.
 		$accessToken = '__Usually-Required__'; // <--- !!! Change this !!!
 		
-		xdebug_break();
-		
 		$clientId = 'cc8152b2ba978bc754d4b92a287d081d584a4735';
 		$clientSecret = '210118b4949d61e33482d7ec10d529ff6cf3cb84';
 		$accessToken = '2a706adf8d7069ad40bd1376b863f76daaeda68d';
 		
-		$Bitly = new \kananlanginhooper\bitly-api-php\Bitly($clientId, $clientSecret, $accessToken);
+		$Bitly = new BitlyApiPhp\Bitly($clientId, $clientSecret, $accessToken);
 		
 		print "<h1>Hello World</h1>";
+		
+		$UrlToShorten = 'http://floormechanics.com/ProductDetail/Bona-Traffic-Waterborne-Hardwood-Floor-Finish--Semi-Gloss/WT150318075?2';
+		$UrlToShorten_Link = "<a href='$UrlToShorten'>$UrlToShorten</a>";
+		
+		$results = $Bitly->shorten($UrlToShorten);
+		
+		$UrlShortened = $results['url'];
+		$UrlShortened_Link = "<a href='$UrlShortened'>$UrlShortened</a>";
+		
+		print "<h1>$UrlToShorten_Link has been shortned to $UrlShortened_Link</h1>";
 	
 	}
 }

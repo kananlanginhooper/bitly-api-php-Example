@@ -4,6 +4,6 @@
     },
     "require": {
         "caedo/framework": "1.*",
-		"kananlanginhooper/bitly-api-php": "1.*"
+		"kananlanginhooper/Bitly-Api-Php": "1.*"
     }
 }
