@@ -23,9 +23,7 @@ The easiest way to load in this project is by using composer.
 or add to your `composer.json`
 ```json
 {
-    ...
     "require": {
-        ...
         "kananlanginhooper/bitly-api-php": "1.0.*"
     }
 }
