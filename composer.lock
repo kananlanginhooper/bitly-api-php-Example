@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c0905edd44ff71fd8382d2eb36f5ae9",
+    "hash": "4a9f2e327b7b478cc9e830c7ab219ee5",
     "packages": [
         {
             "name": "caedo/framework",
@@ -51,19 +51,24 @@
         },
         {
             "name": "kananlanginhooper/bitly-api-php",
-            "version": "1.0.1",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kananlanginhooper/bitly-api-php.git",
-                "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42"
+                "reference": "52a1860e12d3f5698c9d5dd85a6a2ac5237f5207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kananlanginhooper/bitly-api-php/zipball/a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
-                "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
+                "url": "https://api.github.com/repos/kananlanginhooper/bitly-api-php/zipball/52a1860e12d3f5698c9d5dd85a6a2ac5237f5207",
+                "reference": "52a1860e12d3f5698c9d5dd85a6a2ac5237f5207",
                 "shasum": ""
             },
             "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bitly": "src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache Software License 2.0"
@@ -86,7 +91,7 @@
                 "api",
                 "bitly"
             ],
-            "time": "2016-07-26 20:05:12"
+            "time": "2016-08-09 17:06:17"
         }
     ],
     "packages-dev": [],

@@ -16,5 +16,10 @@
             "role": "Original Developer"
         }
     ],
+	"autoload": {
+		"psr-0": {
+			"Bitly": "src"
+		}
+	},
     "license": "Apache Software License 2.0"
 }

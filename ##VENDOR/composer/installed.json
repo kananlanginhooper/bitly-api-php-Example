@@ -46,22 +46,27 @@
     },
     {
         "name": "kananlanginhooper/bitly-api-php",
-        "version": "1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/kananlanginhooper/bitly-api-php.git",
-            "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42"
+            "reference": "52a1860e12d3f5698c9d5dd85a6a2ac5237f5207"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/kananlanginhooper/bitly-api-php/zipball/a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
-            "reference": "a0297fbd7cee3104bbcc2daa7a45ee2cc317fe42",
+            "url": "https://api.github.com/repos/kananlanginhooper/bitly-api-php/zipball/52a1860e12d3f5698c9d5dd85a6a2ac5237f5207",
+            "reference": "52a1860e12d3f5698c9d5dd85a6a2ac5237f5207",
             "shasum": ""
         },
-        "time": "2016-07-26 20:05:12",
+        "time": "2016-08-09 17:06:17",
         "type": "library",
         "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Bitly": "src"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "Apache Software License 2.0"
